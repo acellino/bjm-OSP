@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+#left_pane{
+    float:left;
+    display:block;
+    width: 220px;
+    height: 100%;
+    overflow:hidden;
+    background: silver;
+    position:absolute;
+    z-index:1
+}
+
+#main_pane{
+    float:left;
+    height:100%;
+    left:0px;
+    overflow:scroll;
+    position:absolute;        
+    right:0;
+}
+
