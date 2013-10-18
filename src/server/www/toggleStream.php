@@ -23,7 +23,7 @@ else {
     system('python /home/pi/sensor_client.py 3'); 
 }
 
-sleep(1.5);
+sleep(1.5); // to allow some time for the camera to go live
 
 header('Location: livestream.php');
 ?>
